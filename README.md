@@ -1,4 +1,4 @@
-# 🧠 DSA Lab
+# 🧠 DSA Library
 > Complete implementation of **Data Structures and Algorithms** in C++, written from scratch for learning, interview prep, and reference.
 
 <br/>
