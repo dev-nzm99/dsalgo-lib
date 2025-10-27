@@ -1,3 +1,4 @@
+[![Author](https://img.shields.io/badge/Author-Nazmul%20Islam-blue?style=flat-square&logo=github)](https://github.com/nazmulislam92)
 
 
 ## 🏗️ Introduction
@@ -7,7 +8,8 @@ Each file includes:
 - Time and space complexity  
 - Example usage  
 
-Designed to help learners **understand the internals** rather than just using built-in libraries.
+The goal of this repository is to help learners **truly understand how data structures and algorithms work internally**, rather than relying solely on built-in libraries or functions.  
+It serves as a reliable resource for **learning, practice, and interview preparation**.
 
 ---
 
