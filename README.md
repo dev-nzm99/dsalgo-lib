@@ -1,5 +1,8 @@
-[![Author](https://img.shields.io/badge/Author-Nazmul%20Islam-blue?style=flat-square&logo=github)](https://github.com/dev-nzm99)
-
+<p align="right">
+  <a href="https://github.com/dev-nzm99">
+    <img src="https://img.shields.io/badge/Author-Nazmul%20Islam-blue?style=flat-square&logo=github" alt="Author">
+  </a>
+</p>
 
 ## 🏗️ Introduction
 This repository contains a clean and well-documented implementation of all major **data structures** and **algorithms**.  
