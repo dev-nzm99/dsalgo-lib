@@ -1,0 +1,26 @@
+function solve(arr) {
+  // initialize an empty stack
+  stack = [];
+  
+  // iterate through all the elements in the array
+  for (i = 1 to arr.length)) {
+     // pop elements from stack if some perticular condition satisfies
+      while (stack is not empty && element represented by stack top "OPERATOR" arr[i]) {
+      
+          let stackTop = stack.pop();
+  
+      // do something with stackTop here e.g.
+      // nextGreater[stackTop] = i
+    }
+  
+    if (!stack.empty()) {
+      // if stack has some elements left
+      // do something with stack top here e.g.
+      // previousGreater[i] = stack.at(-1)
+    }
+    // at the end, we push the current index into the stack
+     stack.push(i);
+  }
+  
+  // At all points in time, the stack maintains its monotonic property
+}
