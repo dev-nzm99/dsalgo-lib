@@ -1,0 +1,101 @@
+dsa-lab/
+│
+├── 📜 README.md
+│
+├── 📁 data_structures/
+│   ├── arrays/
+│   │   ├── array_basics.cpp
+│   │   ├── dynamic_array.cpp
+│   │   └── README.md
+│   ├── linked_list/
+│   │   ├── singly_linked_list.cpp
+│   │   ├── doubly_linked_list.cpp
+│   │   ├── circular_linked_list.cpp
+│   │   └── README.md
+│   ├── stack/
+│   │   ├── stack_array.cpp
+│   │   ├── stack_linkedlist.cpp
+│   │   └── README.md
+│   ├── queue/
+│   │   ├── queue_array.cpp
+│   │   ├── circular_queue.cpp
+│   │   ├── priority_queue.cpp
+│   │   └── README.md
+│   ├── tree/
+│   │   ├── binary_tree.cpp
+│   │   ├── bst.cpp
+│   │   ├── avl_tree.cpp
+│   │   ├── trie.cpp
+│   │   └── README.md
+│   ├── graph/
+│   │   ├── adjacency_list.cpp
+│   │   ├── bfs_dfs.cpp
+│   │   ├── dijkstra.cpp
+│   │   ├── topological_sort.cpp
+│   │   └── README.md
+│   ├── hash_table/
+│   │   ├── hash_chaining.cpp
+│   │   ├── hash_open_addressing.cpp
+│   │   └── README.md
+│   ├── heap/
+│   │   ├── min_heap.cpp
+│   │   ├── max_heap.cpp
+│   │   └── README.md
+│   ├── disjoint_set/
+│   │   ├── union_find.cpp
+│   │   └── README.md
+│   └── extras/
+│       ├── segment_tree.cpp
+│       ├── fenwick_tree.cpp
+│       └── README.md
+│
+├── 📁 algorithms/
+│   ├── searching/
+│   │   ├── linear_search.cpp
+│   │   ├── binary_search.cpp
+│   │   └── README.md
+│   ├── sorting/
+│   │   ├── bubble_sort.cpp
+│   │   ├── selection_sort.cpp
+│   │   ├── insertion_sort.cpp
+│   │   ├── merge_sort.cpp
+│   │   ├── quick_sort.cpp
+│   │   ├── heap_sort.cpp
+│   │   └── README.md
+│   ├── recursion/
+│   │   ├── factorial.cpp
+│   │   ├── fibonacci.cpp
+│   │   └── README.md
+│   ├── divide_and_conquer/
+│   │   ├── binary_search.cpp
+│   │   ├── merge_sort.cpp
+│   │   └── README.md
+│   ├── dynamic_programming/
+│   │   ├── knapsack.cpp
+│   │   ├── longest_common_subsequence.cpp
+│   │   ├── coin_change.cpp
+│   │   └── README.md
+│   ├── greedy/
+│   │   ├── activity_selection.cpp
+│   │   ├── huffman_coding.cpp
+│   │   └── README.md
+│   ├── graph_algorithms/
+│   │   ├── bfs.cpp
+│   │   ├── dfs.cpp
+│   │   ├── dijkstra.cpp
+│   │   ├── prim.cpp
+│   │   ├── kruskal.cpp
+│   │   └── README.md
+│   ├── backtracking/
+│   │   ├── n_queens.cpp
+│   │   ├── sudoku_solver.cpp
+│   │   └── README.md
+│   └── bit_manipulation/
+│       ├── count_set_bits.cpp
+│       ├── power_of_two.cpp
+│       └── README.md
+│
+└── 📁 utils/
+    ├── io_helper.cpp
+    ├── test_runner.cpp
+    └── README.md
