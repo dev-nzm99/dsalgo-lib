@@ -1,4 +1,4 @@
-[![Author](https://img.shields.io/badge/Author-Nazmul%20Islam-blue?style=flat-square&logo=github)](https://github.com/nazmulislam92)
+[![Author](https://img.shields.io/badge/Author-Nazmul%20Islam-blue?style=flat-square&logo=github)](https://github.com/dev-nzm99)
 
 
 ## 🏗️ Introduction
