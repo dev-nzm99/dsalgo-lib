@@ -11,7 +11,7 @@ Each file includes:
 - Time and space complexity  
 - Example usage  
 
-The goal of this repository is to help learners **truly understand how data structures and algorithms work internally**, rather than relying solely on built-in libraries or functions.  
+The goal of this repository is to provide learners with a deep understanding of the inner workings of data structures and algorithms, beyond just using built-in libraries or functions.
 It serves as a reliable resource for **learning, practice, and interview preparation**.
 
 ---
