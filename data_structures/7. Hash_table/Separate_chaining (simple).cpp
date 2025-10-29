@@ -14,13 +14,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 class Hash{
-    int bucketCount;  //no of buckets
+    int size;  //no of buckets (size)
     vector<vector<int>> table; 
      
 public:
     Hash(int bucketCount){
-        this->bucketCount = bucketCount;
-        table.resize(bucketCount);
+        this->size = bucketCount;
+        table.resize(size);
     }
     
     //function to insert a key in a hesh table
@@ -44,7 +44,7 @@ public:
         }
     }
     void display(){
-        for (int i = 0; i < bucketCount; i++){
+        for (int i = 0; i < size; i++){
             cout<<i;
             for(auto x: table[i]){
                 cout<<"--> "<<x<<' ';
@@ -55,7 +55,7 @@ public:
 private:
     //hash function to map key to index
     int getHeshIndex(int key){
-        return key%bucketCount;
+        return key % size;
     }
 }; 
 
@@ -73,7 +73,6 @@ int main(){
 
     return 0;
 }
-
 /*---------------------------------------------------------------------
 Output:
 0
