@@ -4,7 +4,7 @@
   </a>
 </p>
 
-## 🏗️ Introduction
+## Introduction
 This repository contains a clean and well-documented implementation of all major **data structures** and **algorithms**.  
 Each file includes:
 - Core logic  
@@ -33,7 +33,7 @@ It serves as a reliable resource for **learning, practice, and interview prepara
 
 ---
 
-## ⚙️ Implemented Algorithms
+## 🧩 Implemented Algorithms
 
 | Category | Examples |
 |-----------|-----------|
