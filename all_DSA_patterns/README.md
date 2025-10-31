@@ -27,7 +27,7 @@ Mastering Data Structures and Algorithms requires not just solving problems, but
 ---
 
 ## Get Started
-1. Click the link above to access the patterns sheet  
+1. Click the button above to access the patterns sheet  
 2. Explore each pattern and try solving example problems  
 3. Apply these patterns in your daily practice to **level up your problem-solving skills**  
 
