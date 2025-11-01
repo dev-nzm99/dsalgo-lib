@@ -3,6 +3,7 @@
 ## 1. Pattern Overview
 
 Imagine you and a friend are walking around a circular track. You start together, but your friend walks twice as fast as you. If the track is a perfect circle and you both keep walking, eventually, your friend will lap you and catch up again. But if the track is a straight line, your friend will just keep getting farther ahead and never meet you again. This is the heart of the Fast & Slow Pointers (also called the "Tortoise and Hare") cycle detection pattern.
+
 This pattern is incredibly useful when you need to detect cycles or repeated patterns in data structures like linked lists or arrays. It's like having two detectives following clues at different speeds—if there's a loop, the faster one will eventually catch up to the slower one inside the loop. If not, the faster one will reach the end and stop.
 
 You'll often use this pattern when:
