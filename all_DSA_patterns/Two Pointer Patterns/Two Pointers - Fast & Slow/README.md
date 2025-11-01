@@ -3,7 +3,6 @@
 ## 1. Pattern Overview
 
 Imagine you and a friend are walking around a circular track. You start together, but your friend walks twice as fast as you. If the track is a perfect circle and you both keep walking, eventually, your friend will lap you and catch up again. But if the track is a straight line, your friend will just keep getting farther ahead and never meet you again. This is the heart of the Fast & Slow Pointers (also called the "Tortoise and Hare") cycle detection pattern.
-
 This pattern is incredibly useful when you need to detect cycles or repeated patterns in data structures like linked lists or arrays. It's like having two detectives following clues at different speeds—if there's a loop, the faster one will eventually catch up to the slower one inside the loop. If not, the faster one will reach the end and stop.
 
 You'll often use this pattern when:
@@ -12,7 +11,21 @@ You'll often use this pattern when:
 * You need to detect if a process will repeat forever or eventually stop (like checking if a number is "happy").
 * You want to find a duplicate in a set of numbers without extra memory.
 
-Think of it as a clever way to "see the future" of a process by racing two markers through it at different speeds. If they ever meet, you've found a loop!
+##
+
+The Fast and Slow Pointer technique is a clever algorithmic approach used mainly in linked lists and arrays to detect patterns like cycles, midpoints, or duplicates — without using extra space.
+
+It works by moving two pointers through a sequence at different speeds:
+- Slow pointer (🐢) → moves one step at a time.
+- Fast pointer (🐇) → moves two steps at a time.
+
+Because the fast pointer moves quicker, it eventually “laps” or meets the slow pointer if there’s a loop (cycle).
+
+<div align="center">
+  <img src="https://github.com/dev-nzm99/DSA-Pathshala/blob/main/src/img/Screenshot%202025-11-01%20115407.png" alt="Banner" width="100%" />
+</div>
+
+
 
 ---
 
