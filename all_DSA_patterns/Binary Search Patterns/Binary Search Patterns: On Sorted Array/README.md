@@ -24,7 +24,7 @@ Let’s break down what makes binary search so powerful and how it works:
 ### The Step-by-Step Process
 
 - **Sorted Data is Key:** Binary search only works if your data is sorted. Think of trying to find a word in a shuffled dictionary—it just wouldn’t work!
-- **Divide and Conquer:** You start with two pointers: left at the beginning and right at the end of your array.
+- **Divide and Conquer:** You start with two pointers: `left` at the beginning and `right` at the end of your array.
 - **Find the Middle:** Calculate the middle index, usually as `mid = left + (right - left) / 2` to avoid overflow.
 - **Compare:** Check if the middle element is what you’re looking for.
   - If it is, you’re done!
@@ -84,3 +84,15 @@ Suppose you’re searching for 5 in `[1, 3, 7, 9]`. Since 5 isn’t present, whe
 - For insertion points, sometimes you want `while (left < right)`.
 - Use clear variable names: `left`, `right`, `mid`, `target`.
 - Think about what happens when the array is empty or has only one element.
+
+## 4. Practice Problems (LeetCode)
+
+- [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+- [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+- [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [First Bad Version](https://leetcode.com/problems/first-bad-version/)
+- [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
+- [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+- [Binary Search](https://leetcode.com/problems/binary-search/)
+- [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
+
