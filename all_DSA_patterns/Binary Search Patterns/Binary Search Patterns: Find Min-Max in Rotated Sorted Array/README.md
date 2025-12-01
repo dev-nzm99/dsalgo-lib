@@ -99,3 +99,18 @@ The minimum (or maximum) will be at this position.
 
 Array: `[2, 2, 2, 0, 1, 2]`  
 Duplicates at both ends—be careful to move pointers inward if `nums[mid] == nums[right]`.
+
+---
+
+## 4. Prectice Problems:
+### Binary Search Pattern Practice – Rotated & Mountain Arrays
+
+| # | Problem                                   | Difficulty | LeetCode Link |
+|---|-------------------------------------------|-----------|---------------|
+| 1 | Search in Rotated Sorted Array           | Medium    | https://leetcode.com/problems/search-in-rotated-sorted-array/ |
+| 2 | Search in Rotated Sorted Array II        | Medium    | https://leetcode.com/problems/search-in-rotated-sorted-array-ii/ |
+| 3 | Find Minimum in Rotated Sorted Array     | Medium    | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ |
+| 4 | Find Peak Element                        | Medium    | https://leetcode.com/problems/find-peak-element/ |
+| 5 | Peak Index in a Mountain Array           | Medium    | https://leetcode.com/problems/peak-index-in-a-mountain-array/ |
+| 6 | Find in Mountain Array                   | Hard      | https://leetcode.com/problems/find-in-mountain-array/ |
+
