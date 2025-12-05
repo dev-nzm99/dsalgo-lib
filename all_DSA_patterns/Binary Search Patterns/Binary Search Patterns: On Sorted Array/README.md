@@ -85,7 +85,31 @@ Suppose you’re searching for 5 in `[1, 3, 7, 9]`. Since 5 isn’t present, whe
 - Use clear variable names: `left`, `right`, `mid`, `target`.
 - Think about what happens when the array is empty or has only one element.
 
-## 4. Practice Problems (LeetCode)
+---
+
+## 4. Practice Tips
+
+### Signals to Use This Pattern:
+- The data is sorted (or can be treated as sorted).
+- You need to find, insert, or locate a boundary (first/last occurrence, missing value, etc.).
+- The problem asks for O(log n) time.
+
+### Aha! Moments:
+- Realizing you don’t need to check every element—just keep halving!
+- Understanding that the final value of your pointer (often left) can give you insertion points or boundaries.
+
+### Debugging Tips:
+- Watch out for off-by-one errors! Double-check your loop conditions and pointer updates.
+- Print your left, right, and mid values during debugging to see how the search space changes.
+- For edge cases, test empty arrays, single-element arrays, and targets outside the range.
+
+### Memory Tricks:
+- "Divide and Conquer" = "Cut the problem in half each time."
+- Remember: Sorted + Search = Binary Search!
+
+---
+
+## 5. Practice Problems (LeetCode)
 
 - [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 - [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
@@ -95,4 +119,8 @@ Suppose you’re searching for 5 in `[1, 3, 7, 9]`. Since 5 isn’t present, whe
 - [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 - [Binary Search](https://leetcode.com/problems/binary-search/)
 - [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
+
+---
+
+> Keep practicing, and soon binary search will feel as natural as flipping to the right page in a book!
 
