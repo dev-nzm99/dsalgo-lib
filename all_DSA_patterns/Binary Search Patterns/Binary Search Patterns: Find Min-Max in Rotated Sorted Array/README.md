@@ -102,7 +102,33 @@ Duplicates at both ends—be careful to move pointers inward if `nums[mid] == nu
 
 ---
 
-## 4. Prectice Problems:
+## 4. Practice Tips
+
+### Signals to Recognize:
+- Array is sorted but rotated.
+- Asked for min/max or efficient search (not just any element).
+- Hints about O(log n) time.
+
+### Aha! Moments:
+- Realizing that at least one half is always sorted.
+- Understanding that comparing mid to end/start reveals the rotation.
+
+### Debugging Tips:
+- Watch for off-by-one errors with pointers.
+- Double-check edge cases: no rotation, single element, duplicates.
+- Print left, mid, and right during debugging to trace logic.
+
+### Memory Trick:
+- "Compare mid to end to find the bend!" (Helps remember which side to check.)
+
+### Common Misconceptions:
+- Thinking the array must be fully sorted for binary search to work.
+- Forgetting to handle duplicates (if allowed).
+
+
+---
+
+## 5. Prectice Problems:
 ### Binary Search Pattern Practice – Rotated & Mountain Arrays
 
 | # | Problem                                   | Difficulty | LeetCode Link |
@@ -114,3 +140,5 @@ Duplicates at both ends—be careful to move pointers inward if `nums[mid] == nu
 | 5 | Peak Index in a Mountain Array           | Medium    | https://leetcode.com/problems/peak-index-in-a-mountain-array/ |
 | 6 | Find in Mountain Array                   | Hard      | https://leetcode.com/problems/find-in-mountain-array/ |
 
+### Remember:
+Whenever you see a rotated sorted array and need to find something efficiently, think about which half is sorted and use binary search to zoom in on your answer!
