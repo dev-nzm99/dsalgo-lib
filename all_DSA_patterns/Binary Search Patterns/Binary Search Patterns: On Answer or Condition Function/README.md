@@ -110,7 +110,23 @@ Picture a slider from 1 to 100. Each time you move the slider, you ask, “Is th
 
 ---
 
-## 6. Practice Tips
+## 6. Practice Problems:
+### Binary Search on Answer/Condition Function Practice
+
+| #  | Problem                                                        | Difficulty | LeetCode Link                                                   |
+|----|----------------------------------------------------------------|-----------|-----------------------------------------------------------------|
+| 1  | Split Array Largest Sum                                        | Hard      | https://leetcode.com/problems/split-array-largest-sum/           |
+| 2  | Minimize Max Distance to Gas Station                           | Hard      | https://leetcode.com/problems/minimize-max-distance-to-gas-station/ |
+| 3  | Koko Eating Bananas                                            | Medium    | https://leetcode.com/problems/koko-eating-bananas/              |
+| 4  | Capacity To Ship Packages Within D Days                        | Medium    | https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/ |
+| 5  | Minimum Number of Days to Make m Bouquets                      | Medium    | https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/ |
+| 6  | Minimum Limit of Balls in a Bag                                | Medium    | https://leetcode.com/problems/minimum-limit-of-balls-in-a-bag/  |
+| 7  | Minimized Maximum of Products Distributed to Any Store         | Medium    | https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store/ |
+| 8  | Maximum Candies Allocated to K Children                        | Medium    | https://leetcode.com/problems/maximum-candies-allocated-to-k-children/ |
+
+---
+
+## 7. Practice Tips
 
 ### How to recognize this pattern:
 
