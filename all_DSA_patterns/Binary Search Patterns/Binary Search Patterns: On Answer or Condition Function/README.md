@@ -1,5 +1,13 @@
 # Binary Search Patterns: On Answer / Condition Function
 
+<p align="left">
+  <a href="https://www.geeksforgeeks.org/dsa/binary-search-on-answer-tutorial-with-problems/" target="_blank">
+    <img src="https://img.shields.io/badge/GFG%20Article%20-%233F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white&labelColor=%233F8D46&color=4CAF50" alt="How this approach works?" />
+  </a>
+</p>
+
+##
+
 ## 1. Pattern Overview
 
 Imagine you’re trying to guess a secret number between 1 and 100. Each time you guess, you’re told whether your guess is too high or too low. Instead of checking every number one by one, you can quickly narrow down the possibilities by always guessing the middle number. This is the essence of binary search.
