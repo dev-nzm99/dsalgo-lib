@@ -50,7 +50,7 @@ This function is usually greedy or uses prefix sums, and sometimes dynamic progr
 
 ### Mathematical Foundation
 
-The pattern relies on the Intermediate Value Theorem: if the function flips from false to true, there’s a boundary point where the answer lies.  
+The pattern relies on the [Intermediate Value Theorem](https://www.geeksforgeeks.org/maths/intermediate-value-theorem/): if the function flips from false to true, there’s a boundary point where the answer lies.  
 The key is that the function is monotonic—it never flips back.
 
 ---
