@@ -16,6 +16,8 @@ This pattern is especially useful when:
 
 You’ll find this pattern in real-world scenarios like dividing work among people, shipping packages within deadlines, or allocating resources fairly.
 
+---
+
 ## 2. Core Concepts
 
 Let’s break down the key ideas behind Binary Search on Answer/Condition Function:
@@ -50,6 +52,8 @@ This function is usually greedy or uses prefix sums, and sometimes dynamic progr
 
 The pattern relies on the Intermediate Value Theorem: if the function flips from false to true, there’s a boundary point where the answer lies.  
 The key is that the function is monotonic—it never flips back.
+
+---
 
 ## 3. Implementation Approach
 
@@ -88,6 +92,8 @@ Examples:
 
 After finding the answer, double-check with the condition function to ensure correctness.
 
+---
+
 ## 4. Decision Tree
 
 ### When to use this pattern:
@@ -96,6 +102,37 @@ After finding the answer, double-check with the condition function to ensure cor
 - You can check feasibility for a given value.
 - The feasibility check is monotonic.
 
+---
+
 ## 5. Visual Example
 
 Picture a slider from 1 to 100. Each time you move the slider, you ask, “Is this good enough?” and adjust left or right based on the answer.
+
+---
+
+## 6. Practice Tips
+
+### How to recognize this pattern:
+
+- The problem asks for a minimum or maximum possible value (e.g., minimum speed, maximum allocation).
+- You can write a function to check if a guess is feasible.
+- The feasibility function is monotonic—once it works, it keeps working for higher/lower values.
+
+### Aha! Moments:
+
+- Realizing you don’t need to simulate every possible answer—just check the boundaries and use binary search.
+- Understanding that the condition function is the real heart of the solution.
+
+### Debugging Tips:
+
+- Double-check your condition function—off-by-one errors are common.
+- Make sure your search space boundaries are correct (min/max possible values).
+- Test edge cases: smallest/largest inputs, one day, one item, etc.
+
+### Memory Tricks:
+
+- Remember: "Binary search on answer" = "Guess, check, and adjust."
+- Mnemonic: Condition Function = Can Find (the answer).
+
+By mastering the Binary Search on Answer/Condition Function pattern, you’ll unlock a powerful tool for tackling a wide range of optimization problems—especially those loved by top tech companies like Amazon, Google, Facebook, and Flipkart!
+
