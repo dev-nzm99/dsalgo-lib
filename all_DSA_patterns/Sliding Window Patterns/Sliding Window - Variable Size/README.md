@@ -13,6 +13,8 @@ This pattern is incredibly useful when you need to find the longest or shortest 
 ### Everyday Analogy
 Think of filling a shopping cart with groceries, but you can only carry up to two types of fruit at a time. As you shop, you add items, but if you pick up a third type, you have to remove something. The cart’s contents (your “window”) change size based on the rules.
 
+---
+
 ## 2. Core Concepts
 Let’s break down how this pattern works under the hood:
 
@@ -35,6 +37,8 @@ Picture a highlighter moving over a line of text. You start highlighting from th
 
 ### Mathematical Foundation
 At its core, this pattern is about maintaining invariants—rules that must always be true inside your window. You use two pointers to efficiently explore all possible subarrays that meet your criteria, without redundant work.
+
+---
 
 ## 3. Implementation Approach
 Let’s build a mental model for tackling these problems:
@@ -59,7 +63,9 @@ Let’s build a mental model for tackling these problems:
 ### Example
 In the **“Fruit Into Baskets”** problem, you want the longest subarray with at most 2 types of fruit. As you walk through the array, you add fruit types to your basket (hash map). If you pick up a third type, you remove fruit from the left until you’re back to two types.
 
-## PRACTICE PROBLEMS
+---
+
+## 4. PRACTICE PROBLEMS
 
 Here are some classic LeetCode problems using the **Variable Size Sliding Window** pattern:
 
