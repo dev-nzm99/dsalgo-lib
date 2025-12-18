@@ -82,27 +82,27 @@ Array: `[5, 7, 7, 8, 8, 10]`, target: `8`
 
 ## 4. Practice Tips
 
-## Signals to Look For:
+### Signals to Look For:
 - The data is sorted.
 - The problem asks for a range, boundary, or window.
 - You need to find "first," "last," or "closest" occurrences.
 
 ##
 
-## Aha! Moments:
+### Aha! Moments:
 - Realizing you can keep searching after finding the target to find true boundaries.
 - Understanding that binary search isn’t just for existence—it’s for precision.
 
 ##
 
-## Debugging Tips:
+### Debugging Tips:
 - Watch for off-by-one errors with pointers.
 - Check what happens when the target is at the start or end.
 - Test with empty arrays and arrays with all identical elements.
 
 ##
 
-## Memory Tricks:
+### Memory Tricks:
 - “Left for first, right for last”—when you find the target, move left to find the first, right to find the last.
 
 ##
