@@ -8,7 +8,7 @@ Binary Search is a powerful algorithmic technique used to efficiently find eleme
 
 ---
 
-## [1. Binary Search Patterns: On Sorted Array/List](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%3A%20On%20Sorted%20Array%2FList)
+## [1. Binary Search Patterns: On Sorted Array/List](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%20Patterns%3A%20On%20Sorted%20Array)
 
 **Overview:**
 
@@ -33,7 +33,7 @@ Binary Search is a powerful algorithmic technique used to efficiently find eleme
 
 ---
 
-## [2. Binary Search Patterns: On Answer / Condition Function](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%3A%20On%20Answer%20%2F%20Condition%20Function)
+## [2. Binary Search Patterns: On Answer / Condition Function](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%20Patterns%3A%20On%20Answer%20or%20Condition%20Function)
 
 **Overview:**
 
@@ -57,7 +57,7 @@ Binary Search is a powerful algorithmic technique used to efficiently find eleme
 
 ---
 
-## [3. Binary Search Patterns: Median and Kth of Two Sorted Arrays](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%3A%20Median%20and%20Kth%20of%20Two%20Sorted%20Arrays)
+## [3. Binary Search Patterns: Median and Kth of Two Sorted Arrays](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%20Patterns%3A%20Median%20and%20Kth%20of%20Two%20Sorted%20Arrays)
 
 **Overview:**
 
@@ -81,7 +81,7 @@ Binary Search is a powerful algorithmic technique used to efficiently find eleme
 
 ---
 
-## [4. Binary Search Patterns: Find Min/Max in Rotated Sorted Array](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%3A%20Find%20Min%2FMax%20in%20Rotated%20Sorted%20Array)
+## [4. Binary Search Patterns: Find Min/Max in Rotated Sorted Array](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%20Patterns%3A%20Find%20Min-Max%20in%20Rotated%20Sorted%20Array)
 
 **Overview:**
 
@@ -104,7 +104,7 @@ Binary Search is a powerful algorithmic technique used to efficiently find eleme
 
 ---
 
-## [5. Binary Search Patterns: Find First/Last Occurrence](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%3A%20Find%20First%2FLast%20Occurrence)
+## [5. Binary Search Patterns: Find First/Last Occurrence](https://github.com/dev-nzm99/dsalgo-lib/tree/main/all_DSA_patterns/Binary%20Search%20Patterns/Binary%20Search%20Patterns%3A%20Find%20First%20or%20Last%20Occurrence)
 
 **Overview:**
 
