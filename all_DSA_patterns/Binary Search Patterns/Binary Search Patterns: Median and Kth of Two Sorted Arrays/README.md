@@ -60,3 +60,28 @@ Ask yourself: What happens if all elements are identical? What if k is larger th
 
 ### Step 5: Return the Answer
 After binary search, low will be the k-th smallest value.
+
+---
+
+## 5. Practice Tips
+
+### Signals to Recognize:
+- If a problem asks for the k-th smallest/largest value among pairs or merged sorted arrays, and brute force is too slow, think **binary search on the answer**.
+
+### Aha! Moments:
+- Realizing you can **count valid candidates** without listing them all is the key breakthrough.
+
+### Debugging Tips:
+- Always check your **counting function**—off-by-one errors are common.  
+- Print intermediate counts for small test cases to ensure correctness.
+
+### Common Misconceptions:
+- Don’t confuse **binary search on array indices** with **binary search on possible values**. The latter is about searching for the correct value, not the position in the array.
+
+### Memory Trick:
+- “**Search the answer, not the data**”—when you see ‘k-th’ and sorted, think of this pattern!
+
+---
+
+Keep practicing! Once you internalize this pattern, you’ll spot it in many hard interview problems and real-world scenarios.
+
