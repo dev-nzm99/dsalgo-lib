@@ -79,7 +79,7 @@ Array: `[5, 7, 7, 8, 8, 10]`, target: `8`
 - **Last occurrence:** index 4
 
 ---
-## 6. Practice Problems:
+## 4. Practice Problems:
 ### Binary Search on Answer/Condition Function Practice
 
 | #  | Problem                                                        | Difficulty | LeetCode Link                                                   |
