@@ -62,6 +62,17 @@ Ask yourself: What happens if all elements are identical? What if k is larger th
 After binary search, low will be the k-th smallest value.
 
 ---
+## 4. Practice Problems:
+### Binary Search on Median and K-th Elements in Sorted Arrays
+
+| #  | Problem                                                        | Difficulty | LeetCode Link                                                   |
+|----|----------------------------------------------------------------|-----------|-----------------------------------------------------------------|
+| 1  | Median of Two Sorted Arrays                                    | Hard      | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/) |
+| 2  | Find K-th Smallest Pair Distance                               | Hard      | [Link](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |
+| 3  | Kth Smallest Element in a Sorted Matrix                        | Medium      | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) |
+
+
+---
 
 ## 5. Practice Tips
 
