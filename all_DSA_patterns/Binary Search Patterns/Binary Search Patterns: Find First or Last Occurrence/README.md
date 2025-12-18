@@ -64,16 +64,49 @@ Typically, you’ll use two pointers: left (start of the array) and right (end o
 - Use binary search to find the best starting point for a window of size k.
 - Compare distances to decide which window is closest to the target.
 
----
+##
 
 ## Decision Tree:
 - **Do I need a specific index or a window?**
   - If **index:** Use boundary binary search.
   - If **window:** Use binary search to find the best starting point.
 
----
+##
 
 ### Example Edge Case:
 Array: `[5, 7, 7, 8, 8, 10]`, target: `8`
 - **First occurrence:** index 3
 - **Last occurrence:** index 4
+
+---
+
+## 4. Practice Tips
+
+## Signals to Look For:
+- The data is sorted.
+- The problem asks for a range, boundary, or window.
+- You need to find "first," "last," or "closest" occurrences.
+
+##
+
+## Aha! Moments:
+- Realizing you can keep searching after finding the target to find true boundaries.
+- Understanding that binary search isn’t just for existence—it’s for precision.
+
+##
+
+## Debugging Tips:
+- Watch for off-by-one errors with pointers.
+- Check what happens when the target is at the start or end.
+- Test with empty arrays and arrays with all identical elements.
+
+##
+
+## Memory Tricks:
+- “Left for first, right for last”—when you find the target, move left to find the first, right to find the last.
+
+##
+
+With practice, you’ll spot these patterns quickly and apply binary search with confidence!
+
+
