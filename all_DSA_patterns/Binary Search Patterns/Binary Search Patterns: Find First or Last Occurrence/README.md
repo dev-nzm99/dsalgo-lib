@@ -79,8 +79,18 @@ Array: `[5, 7, 7, 8, 8, 10]`, target: `8`
 - **Last occurrence:** index 4
 
 ---
+## 6. Practice Problems:
+### Binary Search on Answer/Condition Function Practice
 
-## 4. Practice Tips
+| #  | Problem                                                        | Difficulty | LeetCode Link                                                   |
+|----|----------------------------------------------------------------|-----------|-----------------------------------------------------------------|
+| 1  | Find First and Last Position of Element in Sorted Array        | Medium    | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |
+| 2  | Find K Closest Elements                                         | Medium    | [Link](https://leetcode.com/problems/find-k-closest-elements/)  |
+
+
+---
+
+## 5. Practice Tips
 
 ### Signals to Look For:
 - The data is sorted.
