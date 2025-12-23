@@ -12,10 +12,10 @@ Think of intervals as colored blocks on a timeline. Sometimes, these blocks over
 
 This pattern is incredibly useful in real-world scenarios:
 
-- Calendar apps merging overlapping meetings.
-- CPU scheduling where jobs must not overlap.
-- Booking systems for rooms or resources.
-- Finding common free time among employees.
+- `Calendar apps` merging overlapping meetings.
+- `CPU scheduling` where jobs must not overlap.
+- `Booking systems` for rooms or resources.
+- `Finding common free time` among employees.
 
 The key is to process intervals in a way that lets you efficiently answer questions about overlaps, gaps, and groupings. By sorting and scanning through intervals, you can often make greedy decisions—always taking the next best local step (like merging or assigning a room) to reach an optimal solution.
 
