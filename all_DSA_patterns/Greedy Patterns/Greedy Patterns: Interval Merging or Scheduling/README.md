@@ -19,6 +19,8 @@ This pattern is incredibly useful in real-world scenarios:
 
 The key is to process intervals in a way that lets you efficiently answer questions about overlaps, gaps, and groupings. By sorting and scanning through intervals, you can often make greedy decisions—always taking the next best local step (like merging or assigning a room) to reach an optimal solution.
 
+---
+
 ## 2. Core Concepts
 Let’s break down the main ideas behind interval merging and scheduling:
 
@@ -43,6 +45,8 @@ Sorting by start time (or end time, depending on the problem) is almost always t
 - **Heap operations**: O(log K) per interval, where K is the number of groups/rooms.  
 
 **Analogy**: Think of reading a book page by page (linear scan) versus flipping randomly (inefficient). Sorting lets you process intervals in order, and heaps help you quickly find the next available "slot" (like the soonest available room).
+
+---
 
 ## 3. Implementation Approach
 Let’s build a mental model for tackling interval merging/scheduling problems:
@@ -85,9 +89,9 @@ Remember: Greedy works because at each step, you make the best local choice (mer
 
 ---
 
-## Prectice problems
+## 4. Prectice problems
 
-### 🟢 Easy Level
+### 🟢 Easy 
 
 | # | Problem | Link | Concept | Difficulty |
 |:-:|:---------|:------|:-----------|:------------|
@@ -95,9 +99,9 @@ Remember: Greedy works because at each step, you make the best local choice (mer
 | 2 | **Insert Interval** | [LeetCode #57](https://leetcode.com/problems/insert-interval/) | Insert + merge new interval | 🟢 Easy |
 | 3 | **Non-overlapping Intervals** | [LeetCode #435](https://leetcode.com/problems/non-overlapping-intervals/) | Minimum removals to avoid overlap | 🟢 Easy |
 
----
+##
 
-### 🟡 Medium Level
+### 🟡 Medium
 
 | # | Problem | Link | Concept | Difficulty |
 |:-:|:---------|:------|:-----------|:------------|
@@ -107,9 +111,9 @@ Remember: Greedy works because at each step, you make the best local choice (mer
 | 7 | **Minimum Number of Arrows to Burst Balloons** | [LeetCode #452](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Overlap-based greedy grouping | 🟡 Medium |
 | 8 | **Interval List Intersections** | [LeetCode #986](https://leetcode.com/problems/interval-list-intersections/) | Two-pointer intersection of intervals | 🟡 Medium |
 
----
+##
 
-### 🔵 Advanced Level
+### 🔵 Hard
 
 | # | Problem | Link | Concept | Difficulty |
 |:-:|:---------|:------|:-----------|:------------|
@@ -120,4 +124,5 @@ Remember: Greedy works because at each step, you make the best local choice (mer
 | 13 | **Meeting Scheduler** | [LeetCode #1229](https://leetcode.com/problems/meeting-scheduler/) | Find earliest common available slot | 🔵 Hard |
 | 14 | **Maximum Profit in Job Scheduling** | [LeetCode #1235](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) | Weighted interval scheduling (DP + Greedy) | 🔵 Hard |
 
+---
 
