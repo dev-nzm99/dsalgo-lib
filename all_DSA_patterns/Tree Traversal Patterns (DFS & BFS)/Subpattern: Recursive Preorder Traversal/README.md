@@ -92,7 +92,24 @@ In the “Binary Tree Paths” problem, you start at the root, build up a path s
 
 ---
 
-## 4. Practice Tips
+## 4. Practice Problems:
+### Binary Tree Traversal and Manipulation Practice
+
+| #  | Problem                                                       | Difficulty | LeetCode Link                                                   |
+|----|---------------------------------------------------------------|-----------|-----------------------------------------------------------------|
+| 1  | Same Tree                                                     | Easy      | https://leetcode.com/problems/same-tree/                        |
+| 2  | Symmetric Tree                                                | Easy      | https://leetcode.com/problems/symmetric-tree/                   |
+| 3  | Construct Binary Tree from Preorder and Inorder Traversal     | Medium    | https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/ |
+| 4  | Flatten Binary Tree to Linked List                            | Medium    | https://leetcode.com/problems/flatten-binary-tree-to-linked-list/ |
+| 5  | Invert Binary Tree                                            | Easy      | https://leetcode.com/problems/invert-binary-tree/               |
+| 6  | Binary Tree Paths                                             | Medium    | https://leetcode.com/problems/binary-tree-paths/                |
+| 7  | Smallest String Starting From Leaf                            | Medium    | https://leetcode.com/problems/smallest-string-starting-from-leaf/ |
+
+
+
+---
+
+## 5. Practice Tips
 
 #### How to Recognize This Pattern:
 - The problem involves trees and asks you to process or collect information from nodes in a specific order.
