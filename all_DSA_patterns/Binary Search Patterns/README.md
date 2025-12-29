@@ -3,7 +3,7 @@
 Binary Search is a powerful algorithmic technique used to efficiently find elements or answers in sorted data. The following overview categorizes the most common binary search sub-patterns, their core ideas, and when to apply them.
 
 <p align="center">
-  <img src="https://github.com/dev-nzm99/DSA-Pathshala/blob/main/src/img/Binary_search.png" alt="Binary Search Illustration" width = "80%">
+  <img src="https://github.com/dev-nzm99/DSA-Pathshala/blob/main/src/img/Binary_search.png" alt="Binary Search Illustration" width = "100%">
 </p>
 
 ---
