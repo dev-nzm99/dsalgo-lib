@@ -24,7 +24,8 @@ public:
     }
 };
 
-class BinarySearchTree{
+class BinarySearchTree
+{
 private:
     Node *root;
 
@@ -97,6 +98,21 @@ private:
         postOrderTraversal(node->right); // Traverse right subtree
         cout << node->value << " ";      // Visit the node
     }
+    void level_order_traversal(Node *root, vector<int> &ans){
+        queue<Node *> q;
+        q.push(root);
+        while (!q.empty()){
+            Node *treeNode = q.front();
+            q.pop();
+            ans.push_back(treeNode->value);
+            if (treeNode->left != NULL){
+                q.push(treeNode->left);
+            }
+            if (treeNode->right != NULL){
+                q.push(treeNode->right);
+            }
+        }
+    }
 
 public:
     // Constructor to initialize the root as nullptr
@@ -136,6 +152,14 @@ public:
         postOrderTraversal(root);
         cout << "\n";
     }
+    void levelOrderTraversal(){
+        vector<int> res = {};
+        level_order_traversal(root, res);
+        for (const auto &nodeVal : res){
+            cout << nodeVal << " ";
+        }
+        cout << "\n";
+    }
 };
 
 int main(){
@@ -150,16 +174,17 @@ int main(){
     cout << "Preorder: ";
     tree.preOrder(); // Preorder traversal
     cout << "Postorder: ";
-    tree.postOrder(); // Postorder traversal
+    tree.postOrder();        // Postorder traversal
+    cout << "Label order: "; // Label order traversal
+    tree.levelOrderTraversal();
 
     return 0;
 }
 
 /*-------------------------------------------------
 Output:
-Inorder: 3 4 5 6 7 8 
-Preorder: 5 4 3 7 6 8 
-Postorder: 3 4 6 8 7 5 
+Inorder: 3 4 5 6 7 8
+Preorder: 5 4 3 7 6 8
+Postorder: 3 4 6 8 7 5
+Label order: 5 4 7 3 6 8 
 */
-
-
