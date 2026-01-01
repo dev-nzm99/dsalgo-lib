@@ -87,3 +87,58 @@ Let’s build a mental model for solving level order traversal problems:
 **Everyday Example:**
 Imagine you’re organizing a relay race where runners pass the baton to the next generation. You want to record who runs in each round. Level order traversal helps you keep track of each group as they take their turn.
 
+---
+
+## 4. C++ Code Example
+Let’s implement Binary Tree Level Order Traversal (from the database):
+```C++ []
+#include <vector>
+#include <queue>
+using namespace std;
+
+// Definition for a binary tree node.
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+};
+
+/*
+ * Function to perform level order traversal of a binary tree.
+ * Returns a vector of vectors, where each inner vector contains
+ * the values of nodes at that level.
+ */
+vector<vector<int>> levelOrder(TreeNode* root) {
+    vector<vector<int>> result; // Final answer: each subvector is a level
+    if (!root) return result;   // Edge case: empty tree
+
+    queue<TreeNode*> q;         // Queue for BFS
+    q.push(root);               // Start with the root node
+
+    while (!q.empty()) {
+        int levelSize = q.size();           // Number of nodes at current level
+        vector<int> currentLevel;           // Stores values for this level
+
+        // Process all nodes at the current level
+        for (int i = 0; i < levelSize; ++i) {
+            TreeNode* node = q.front();     // Get next node in queue
+            q.pop();
+
+            currentLevel.push_back(node->val); // Record node's value
+
+            // Add children to queue for next level
+            if (node->left) q.push(node->left);
+            if (node->right) q.push(node->right);
+        }
+
+        result.push_back(currentLevel);     // Save this level's values
+    }
+    return result;
+}
+```
+### **Key Points in the Code:**
+
+- The queue ensures nodes are processed in left-to-right, level-by-level order.
+- levelSize is crucial: it tells us how many nodes are at the current level, so we don’t mix levels.
+- After processing each level, we add the collected values to the result.
