@@ -141,3 +141,30 @@ std::vector<int> inorderTraversal(TreeNode* root) {
 
 ---
 
+
+
+
+
+---
+
+## 6. Practice Tips
+
+### Signals to Use This Pattern:
+- The problem asks for nodes **“in order”** or **“sorted order”** in a BST.
+- You need to process every node, but in a specific **left → root → right** sequence.
+- You’re asked for the **kth smallest/largest** element in a BST.
+
+### Common “Aha!” Moments:
+- Realizing that **inorder traversal of a BST returns sorted values**.
+- Recognizing that **recursion naturally mirrors the tree’s structure**.
+
+### Debugging Tips:
+- Print node values as you traverse to validate the visiting order.
+- Watch for **off-by-one** errors in counters (e.g., **kth smallest** problems).
+- Handle `null` nodes gracefully to avoid crashes.
+
+### Memory Tricks:
+- Remember **“LNR”**: **Left, Node, Right** for inorder.
+- Imagine walking through a garden: always explore the **left path**, then the **center**, then the **right**.
+
+With practice, recursive inorder traversal will feel as natural as reading a book from left to right.
