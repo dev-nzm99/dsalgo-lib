@@ -142,6 +142,16 @@ std::vector<int> inorderTraversal(TreeNode* root) {
 ---
 
 
+## 5. Practice Problems:
+
+| #  | Problem                                      | Difficulty | LeetCode Link                                                                 |
+|----|----------------------------------------------|-----------|------------------------------------------------------------------------------|
+| 1  | Binary Tree Inorder Traversal                | Easy      | https://leetcode.com/problems/binary-tree-inorder-traversal/                 |
+| 2  | Validate Binary Search Tree                  | Medium    | https://leetcode.com/problems/validate-binary-search-tree/                   |
+| 3  | Binary Search Tree Iterator                  | Medium    | https://leetcode.com/problems/binary-search-tree-iterator/                   |
+| 4  | Kth Smallest Element in a BST                | Medium    | https://leetcode.com/problems/kth-smallest-element-in-a-bst/                 |
+| 5  | Find Mode in Binary Search Tree              | Easy      | https://leetcode.com/problems/find-mode-in-binary-search-tree/               |
+| 6  | Minimum Absolute Difference in BST           | Easy      | https://leetcode.com/problems/minimum-absolute-difference-in-bst/            |
 
 
 
