@@ -142,3 +142,28 @@ vector<vector<int>> levelOrder(TreeNode* root) {
 - The queue ensures nodes are processed in left-to-right, level-by-level order.
 - levelSize is crucial: it tells us how many nodes are at the current level, so we don’t mix levels.
 - After processing each level, we add the collected values to the result.
+
+---
+
+  ## 6. Practice Tips
+
+### How to Recognize This Pattern:
+- The problem asks for per-level information (e.g., "for each row," "by level," "visible nodes").
+- You need to process nodes in a tree or graph in an outward, expanding fashion.
+
+### Common "Aha!" Moments:
+- Realizing that a queue naturally handles level-by-level traversal.
+- Using the queue’s size to separate levels cleanly.
+- Noticing that you can adapt the pattern for zigzag order, right/left views, or per-level statistics.
+
+### Debugging Tips:
+- Print the queue contents at each step to visualize the traversal.
+- Double-check your level boundaries using the queue’s size.
+- Watch out for off-by-one errors when recording values at each level.
+
+### Memory Tricks:
+- "Queue = Line at the amusement park": First in, first out, everyone gets a turn at their level.
+- "Level size = Number of people in this group photo": Process all before moving to the next.
+
+Mastering level order traversal will make tree problems feel much more approachable and even fun!
+
