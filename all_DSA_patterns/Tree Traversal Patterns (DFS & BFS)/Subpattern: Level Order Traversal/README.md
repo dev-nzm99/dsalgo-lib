@@ -145,6 +145,20 @@ vector<vector<int>> levelOrder(TreeNode* root) {
 
 ---
 
+## 5. Practice Problems:
+
+| #  | Problem                                      | Difficulty | LeetCode Link                                                                 |
+|----|----------------------------------------------|-----------|------------------------------------------------------------------------------|
+| 1  | Binary Tree Level Order Traversal            | Medium    | https://leetcode.com/problems/binary-tree-level-order-traversal/             |
+| 2  | Binary Tree Zigzag Level Order Traversal     | Medium    | https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/      |
+| 3  | Binary Tree Right Side View                  | Medium    | https://leetcode.com/problems/binary-tree-right-side-view/                   |
+| 4  | Find Largest Value in Each Tree Row          | Medium    | https://leetcode.com/problems/find-largest-value-in-each-tree-row/           |
+| 5  | Maximum Level Sum of a Binary Tree           | Medium    | https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/            |
+
+
+
+---
+
   ## 6. Practice Tips
 
 ### How to Recognize This Pattern:
