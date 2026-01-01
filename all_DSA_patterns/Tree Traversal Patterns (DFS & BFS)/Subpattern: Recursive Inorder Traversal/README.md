@@ -103,7 +103,7 @@ Suppose you want to find the minimum absolute difference between values in a BST
 
 Let’s look at a well-commented C++ example based on the Binary Tree Inorder Traversal problem:
 
-```c++[]
+```c++ []
 // Definition for a binary tree node.
 struct TreeNode {
     int val;
@@ -133,4 +133,11 @@ std::vector<int> inorderTraversal(TreeNode* root) {
 }
 
 ```
+### **Explanation:**
+
+- `inorderHelper` is a helper function that does the actual recursion.
+- For each node, it first goes as left as possible, then processes the node, then goes right.
+- The result vector collects the values in the correct order.
+
+---
 
