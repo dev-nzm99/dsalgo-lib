@@ -15,10 +15,10 @@ Mastering Data Structures and Algorithms requires not just solving problems, but
 ---
 
 ## Features
-- ✅ Organized by common problem-solving patterns  
-- ✅ Clear examples for each pattern  
-- ✅ Step-by-step strategies to approach problems  
-- ✅ Ideal for coding interviews and competitive programming  
+- Organized by common problem-solving patterns  
+- Clear examples for each pattern  
+- Step-by-step strategies to approach problems  
+- Ideal for coding interviews and competitive programming  
 
 ---
 
