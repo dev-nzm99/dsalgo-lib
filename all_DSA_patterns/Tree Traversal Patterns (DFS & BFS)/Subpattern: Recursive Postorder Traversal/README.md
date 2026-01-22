@@ -62,9 +62,9 @@ Many problems (like finding the diameter or checking balance) require informatio
 ### Mental Model
 Think recursively:
 
-*“For this node, I’ll trust recursion to handle the left and right children. Once they’re done, I’ll process myself.”*
+> *“For this node, I’ll trust recursion to handle the left and right children. Once they’re done, I’ll process myself.”*
 
----
+##
 
 ### Step-by-Step Approach
 
