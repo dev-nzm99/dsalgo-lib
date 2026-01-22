@@ -33,7 +33,7 @@ Think of organizing a stack of nested boxes. You must unpack all the smaller box
 #### Recursive Nature:
 Each call to the function handles a smaller subtree, trusting recursion to handle the rest.
 
-*“If I know how to process my children, I can process myself.”*
+> *“If I know how to process my children, I can process myself.”*
 
 #
 
