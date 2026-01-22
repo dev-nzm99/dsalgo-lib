@@ -102,7 +102,26 @@ Think of organizing a family reunion. You need to call each family member, but o
 
 ---
 
-## 5. PRACTICE TIPS
+## 5. Practice Problems:
+
+| #  | Problem                                               | Difficulty | LeetCode Link                                                                 |
+|----|-------------------------------------------------------|------------|-------------------------------------------------------------------------------|
+| 1  | Maximum Depth of Binary Tree                          | Easy       | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/)          |
+| 2  | Balanced Binary Tree                                  | Easy       | [Link](https://leetcode.com/problems/balanced-binary-tree/)                  |
+| 3  | Binary Tree Maximum Path Sum                          | Hard       | [Link](https://leetcode.com/problems/binary-tree-maximum-path-sum/)          |
+| 4  | Binary Tree Postorder Traversal                        | Easy       | [Link](https://leetcode.com/problems/binary-tree-postorder-traversal/)        |
+| 5  | House Robber III                                      | Medium     | [Link](https://leetcode.com/problems/house-robber-iii/)                       |
+| 6  | Find Leaves of Binary Tree                            | Medium     | [Link](https://leetcode.com/problems/find-leaves-of-binary-tree/)             |
+| 7  | Diameter of Binary Tree                               | Easy       | [Link](https://leetcode.com/problems/diameter-of-binary-tree/)                |
+| 8  | All Nodes Distance K in Binary Tree                   | Medium     | [Link](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)   |
+| 9  | Delete Nodes And Return Forest                        | Medium     | [Link](https://leetcode.com/problems/delete-nodes-and-return-forest/)        |
+| 10 | Height of Binary Tree After Subtree Removal Query     | Medium     | [Link](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-query/) |
+
+
+
+---
+
+## 6. PRACTICE TIPS
 
 ### Signals to Use This Pattern:
 - The problem asks for information that depends on children before the parent (e.g., heights, sums, depths).
