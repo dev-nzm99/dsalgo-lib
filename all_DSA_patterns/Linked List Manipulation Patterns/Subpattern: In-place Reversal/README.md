@@ -116,3 +116,19 @@ Use the above approach for the whole list.
 - “Do I need to reverse the entire list or just a part?”
 - “How do I reconnect the reversed section to the rest?”
 
+---
+
+## 4. Prectice Problems:
+
+### In-place Reversal Pattern Practice – Linked Lists
+
+| # | Problem                                   | Difficulty | LeetCode Link |
+|---|-------------------------------------------|-----------|---------------|
+| 1 | Reverse Linked List                       | Easy      | https://leetcode.com/problems/reverse-linked-list/ |
+| 2 | Reverse Linked List II                    | Medium    | https://leetcode.com/problems/reverse-linked-list-ii/ |
+| 3 | Reverse Nodes in k-Group                  | Hard      | https://leetcode.com/problems/reverse-nodes-in-k-group/ |
+| 4 | Palindrome Linked List                    | Easy      | https://leetcode.com/problems/palindrome-linked-list/ |
+| 5 | Remove Duplicates from Sorted List        | Easy      | https://leetcode.com/problems/remove-duplicates-from-sorted-list/ |
+| 6 | Remove Duplicates from Sorted List II     | Medium    | https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/ |
+****
+
