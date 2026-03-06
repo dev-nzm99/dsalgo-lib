@@ -73,8 +73,110 @@ For a matrix, think of peeling an onion: rotate the outermost layer, then move i
 
 ---
 
-# Math Connection
 
-Rotation often involves **modular arithmetic**.
+This formula determines where an element moves during rotation.
 
-Example:
+---
+
+# Visualizing the Process
+
+Imagine writing numbers on sticky notes and moving them around on a board, following a set pattern.
+
+---
+
+# Edge Cases
+
+- Rotating by **0** or by the **array's length** → nothing changes.  
+- **Non-square matrices** (for images) → classic rotation only works for square matrices.
+
+---
+
+# Practical Understanding
+
+In-place rotation is about efficiently rearranging data without extra space, using smart swaps and reversals.
+
+---
+
+# Implementation Approach
+
+Let’s build a mental model for tackling **in-place rotation problems**.
+
+---
+
+## Think Like This
+
+- What needs to move where? Visualize the before and after.  
+- Can I swap or reverse sections to achieve the goal?  
+- Do I need to process in layers (for matrices) or segments (for arrays)?
+
+---
+
+# For Arrays (e.g., "Rotate Array")
+
+### Steps
+
+1. **Normalize the rotation**  
+   If rotating by `k` steps but `k` is larger than the array length: `k = k % n`
+
+2. **Reverse the entire array**  
+This puts the elements to be rotated at the front, but in reverse order.
+
+3. **Reverse the first k elements**  
+Now, the rotated part is in the correct order.
+
+4. **Reverse the remaining elements**  
+The rest of the array is now in the correct order.
+
+---
+
+### Ask Yourself
+
+- Am I allowed to use extra space? If not, in-place is required.  
+- Is the rotation to the **left or right**?  
+- What happens if `k` is **0** or a **multiple of the array length**?
+
+---
+
+# For Matrices (e.g., "Rotate Image")
+
+### Steps
+
+1. **Process layer by layer**  
+Start from the outermost layer and move inward.
+
+2. **Rotate the four sides**
+- Top → Right  
+- Right → Bottom  
+- Bottom → Left  
+- Left → Top  
+
+3. **Swap elements in place**  
+Use a temporary variable to perform the swaps.
+
+---
+
+### Ask Yourself
+
+- Is the matrix **square**?  
+(Rotation by 90° in-place only works for **n × n matrices**.)
+
+- How many layers are there?  
+(For an `n × n` matrix, there are **n/2 layers**.)
+
+- What’s the **index mapping** for each rotation?
+
+---
+
+# Edge Cases
+
+- **Empty array/matrix** → Nothing to rotate.  
+- **Single element** → Rotation has no effect.  
+- `k = 0` or `k = n` → No change.
+
+---
+
+# Decision Tree
+
+- **Array?** → Use **reversal** or **cyclic replacements**.  
+- **Matrix?** → Use **layer-by-layer swaps**.
+
