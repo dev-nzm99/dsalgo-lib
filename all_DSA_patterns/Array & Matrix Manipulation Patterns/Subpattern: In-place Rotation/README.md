@@ -175,3 +175,47 @@ Use a temporary variable to perform the swaps.
 - **Array?** → Use **reversal** or **cyclic replacements**.  
 - **Matrix?** → Use **layer-by-layer swaps**.
 
+---
+
+## Practice Tips
+
+###
+
+### Signals to Recognize This Pattern
+
+- The problem asks for **rotation** or **shifting elements**.
+- Constraints mention **"in-place"** or **"no extra space."**
+- You need to **rearrange an array or matrix**, not just process values.
+
+###
+
+### Breakthrough Insights
+
+- **For arrays:** Think **"reverse in parts"** instead of shifting elements one by one.
+- **For matrices:** Visualize **layers and four-way swaps**.
+
+###
+
+### Debugging Tips
+
+- Test important **edge cases**:
+  - Empty array or matrix
+  - Single element
+  - `k = 0`
+  - `k = n`
+
+- **Print the array or matrix after each step** to catch off-by-one errors.
+
+###
+
+### Memory Tricks
+
+- **For arrays:**  
+  > *"Three reversals rotate right!"*
+
+- **For matrices:**  
+  > *"Peel the onion—rotate layer by layer."*
+
+###
+
+Mastering **in-place rotation** will strengthen your ability to solve many complex **array and matrix manipulation problems** efficiently and demonstrate strong optimization skills in technical interviews.
