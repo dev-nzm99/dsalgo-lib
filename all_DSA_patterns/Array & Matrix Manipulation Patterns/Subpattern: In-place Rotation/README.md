@@ -19,26 +19,26 @@ This pattern provides a significant advantage by achieving **O(1) space complexi
 
 ---
 
-# Core Concepts
+## Core Concepts
 
 Let's break down the key ideas behind **in-place rotation**.
 
 ###
 
-## Two Pointers
+### Two Pointers
 
 Think of two fingers pointing at different spots in your array or matrix. You use them to swap or reverse elements, moving data around efficiently without needing extra storage.
 
 ###
 
-## Array/Matrix Structure
+### Array/Matrix Structure
 
 - **Array:** A single row of elements, like a line of people.  
 - **Matrix:** A grid (rows and columns), like seats in a theater.
 
 ###
 
-## In-place Operations
+### In-place Operations
 
 “In-place” means you modify the original data structure, not creating a new one. Imagine rearranging chairs in a room without bringing in more chairs.
 
@@ -62,7 +62,7 @@ For a matrix, think of peeling an onion: rotate the outermost layer, then move i
 
 ---
 
-# Time and Space Complexity
+## Time and Space Complexity
 
 - **Time Complexity:**  
   - `O(n)` for arrays (n = number of elements)  
@@ -73,45 +73,40 @@ For a matrix, think of peeling an onion: rotate the outermost layer, then move i
 
 ---
 
+## Visualizing the Process
 
-This formula determines where an element moves during rotation.
+> Imagine writing numbers on sticky notes and moving them around on a board, following a set pattern.
 
----
+###
 
-# Visualizing the Process
-
-Imagine writing numbers on sticky notes and moving them around on a board, following a set pattern.
-
----
-
-# Edge Cases
+### Edge Cases
 
 - Rotating by **0** or by the **array's length** → nothing changes.  
 - **Non-square matrices** (for images) → classic rotation only works for square matrices.
 
----
+###
 
-# Practical Understanding
+### Practical Understanding
 
 In-place rotation is about efficiently rearranging data without extra space, using smart swaps and reversals.
 
 ---
 
-# Implementation Approach
+## Implementation Approach
 
 Let’s build a mental model for tackling **in-place rotation problems**.
 
----
+###
 
-## Think Like This
+### Think Like This
 
 - What needs to move where? Visualize the before and after.  
 - Can I swap or reverse sections to achieve the goal?  
 - Do I need to process in layers (for matrices) or segments (for arrays)?
 
----
+###
 
-# For Arrays (e.g., "Rotate Array")
+### For Arrays (e.g., "Rotate Array")
 
 ### Steps
 
@@ -127,7 +122,7 @@ Now, the rotated part is in the correct order.
 4. **Reverse the remaining elements**  
 The rest of the array is now in the correct order.
 
----
+##
 
 ### Ask Yourself
 
@@ -137,7 +132,7 @@ The rest of the array is now in the correct order.
 
 ---
 
-# For Matrices (e.g., "Rotate Image")
+## For Matrices (e.g., "Rotate Image")
 
 ### Steps
 
@@ -153,7 +148,7 @@ Start from the outermost layer and move inward.
 3. **Swap elements in place**  
 Use a temporary variable to perform the swaps.
 
----
+##
 
 ### Ask Yourself
 
@@ -167,7 +162,7 @@ Use a temporary variable to perform the swaps.
 
 ---
 
-# Edge Cases
+## Edge Cases
 
 - **Empty array/matrix** → Nothing to rotate.  
 - **Single element** → Rotation has no effect.  
@@ -175,7 +170,7 @@ Use a temporary variable to perform the swaps.
 
 ---
 
-# Decision Tree
+## Decision Tree
 
 - **Array?** → Use **reversal** or **cyclic replacements**.  
 - **Matrix?** → Use **layer-by-layer swaps**.
