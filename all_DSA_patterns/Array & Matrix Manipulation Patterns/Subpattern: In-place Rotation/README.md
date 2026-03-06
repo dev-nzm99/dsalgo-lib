@@ -19,12 +19,6 @@ This pattern provides a significant advantage by achieving **O(1) space complexi
 
 ---
 
-## Pattern Overview Diagram
-
-*(Diagram placeholder)*
-
----
-
 # Core Concepts
 
 Let's break down the key ideas behind **in-place rotation**.
