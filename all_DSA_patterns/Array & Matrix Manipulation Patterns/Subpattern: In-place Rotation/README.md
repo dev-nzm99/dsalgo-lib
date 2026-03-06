@@ -23,26 +23,26 @@ This pattern provides a significant advantage by achieving **O(1) space complexi
 
 Let's break down the key ideas behind **in-place rotation**.
 
----
+###
 
 ## Two Pointers
 
 Think of two fingers pointing at different spots in your array or matrix. You use them to swap or reverse elements, moving data around efficiently without needing extra storage.
 
----
+###
 
 ## Array/Matrix Structure
 
 - **Array:** A single row of elements, like a line of people.  
 - **Matrix:** A grid (rows and columns), like seats in a theater.
 
----
+###
 
 ## In-place Operations
 
 “In-place” means you modify the original data structure, not creating a new one. Imagine rearranging chairs in a room without bringing in more chairs.
 
----
+###
 
 ## Reversal Technique (for arrays)
 
@@ -54,7 +54,7 @@ To rotate an array, you can:
 
 This clever trick lets you rotate with just a few swaps.
 
----
+###
 
 ## Layer-by-Layer Rotation (for matrices)
 
