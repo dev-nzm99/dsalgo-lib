@@ -177,6 +177,14 @@ Use a temporary variable to perform the swaps.
 
 ---
 
+## Prectice Problems
+
+1. **[Rotate Image](https://leetcode.com/problems/rotate-image/)
+2. **[Rotate Array](https://leetcode.com/problems/rotate-array/)
+3. **[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)
+
+---
+
 ## Practice Tips
 
 ###
